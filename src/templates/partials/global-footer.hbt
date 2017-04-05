@@ -1,0 +1,17 @@
+<footer class="global--footer">
+    <div class="container">
+        <div class="global--footer-wrapper">
+            <div class="global--footer-address">
+                <small>ALL IMAGES ON THIS WEBSITE ARE SUBJECT TO COPYRIGHT &copy;  BY PETER LLOYD &copy;  2017</small>
+            </div>
+            <div class="global--footer-social">
+                <a href="/"><img src="/img/logo/logo-white.svg"></a>
+                <div class="global--footer-social-icons">
+                    <img src="/img/logo/fb.svg">
+                    <img src="/img/logo/twitter.svg">
+                    <img src="/img/logo/ig.svg">
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>

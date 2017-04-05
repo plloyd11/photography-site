@@ -1,0 +1,74 @@
+// This file contains very basic styles.
+// Set up a decent box model on the root element
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    color: #333e48;
+    -webkit-text-size-adjust: none;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.33333rem;
+}
+
+/**
+ * Make all elements from the DOM inherit from the parent box-sizing
+ * Since `*` has a specificity of 0, it does not override the `html` value
+ * making all elements inheriting from the root box-sizing value
+ * See: https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
+ */
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+// Basic styles for links
+a {
+    color: #46B1C9;
+    text-decoration: none;
+    @include on-event {
+        color: $text-color;
+        text-decoration: underline;
+    }
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    font: normal 125% / 1.4 $text-font-stack;
+}
+
+section > * {
+    margin-left: 0.66667em;
+    margin-right: 0.66667em;
+}
+
+.container,
+.wrapper {
+    padding: 0 calc(50% - 480px);
+}
+
+.section-spacing {
+  margin-top: 3.25em;
+  margin-bottom: 3.25em;
+}
+
+.header-spacing {
+  margin-bottom: 2.5em;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.row-full {
+  margin: 0;
+}

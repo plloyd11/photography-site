@@ -1,0 +1,42 @@
+.global--footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    color: #fff;
+
+    &-wrapper {
+        display: flex;
+        justify-content: space-between;
+
+        > div {
+            flex: 1;
+        }
+    }
+
+    &-address {
+        > p {
+            margin: 0;
+            line-height: 1.5;
+        }
+    }
+
+    &-social {
+        a {
+            > img {
+                width: 125px;
+                margin: 0 auto 0.35em;
+            }
+        }
+
+        &-icons {
+            display: flex;
+            justify-content: center;
+
+            > img {
+                width: 30px;
+                margin-left: 0.25em;
+                margin-right: 0.25em;
+            }
+        }
+    }
+}

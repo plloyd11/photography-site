@@ -1,0 +1,11 @@
+<header class="global--main-nav container animated">
+    <div class="global--main-nav-left">
+        <a href="/"><img src="/img/logo.svg"></a>
+    </div>
+    <nav class="global--main-nav-right">
+        <a href="/gallery/" class="global--main-nav-item">Gallery</a>
+        <a href="/about/" class="global--main-nav-item">About</a>
+        <a href="/work-with-me" class="global--main-nav-item">Work With Me</a>
+        <a href="/contact/" class="global--main-nav-item nav-cta">Contact</a>
+    </nav>
+</header>

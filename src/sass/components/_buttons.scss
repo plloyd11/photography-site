@@ -1,0 +1,46 @@
+.btn {
+    background: $primary-color;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    max-height: 40px;
+    line-height: 40px;
+    padding: 0 25px;
+    text-transform: capitalize;
+    text-decoration: none;
+    transition: all 0.3s cubic-bezier(0.49, 0.99, 0.54, 0.98);
+
+    &:hover {
+        color: #fff;
+        background: darken($primary-color, 15%);
+        text-decoration: none;
+    }
+}
+
+.btn-ghost {
+    background: inherit;
+    border: 1px solid #fff;
+}
+
+.btn-submit {
+    padding: 0 3em;
+    border: none;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.nav-cta {
+    background: $primary-color;
+    padding: 0.5em 1em;
+    color: white;
+    border-radius: 2px;
+    transition: all 0.3s cubic-bezier(0.49, 0.99, 0.54, 0.98);
+
+    &:hover {
+        color: #fff;
+        background: darken($primary-color, 15%);
+        text-decoration: none;
+    }
+}
