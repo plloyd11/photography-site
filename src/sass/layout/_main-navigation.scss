@@ -1,3 +1,22 @@
+.global--logo {
+    color: #333;
+    text-align: center;
+    text-transform: uppercase;
+
+    &:hover {
+        text-decoration: none;
+    }
+
+    h1 {
+        line-height: 0.2;
+        font-weight: 600;
+    }
+
+    span {
+        font-size: 10px;
+    }
+}
+
 .global--main-nav {
     width: 100%;
     height: 90px;
@@ -7,6 +26,7 @@
     align-items: center;
     z-index: 100;
     transition: 0.35s ease-in;
+    background-color: #f7f7f7;
 
     &-left {
         img {
@@ -16,16 +36,16 @@
     }
 
     &-right {
-      display: none;
-      @include mq (medium) {
-        display: block;
-      }
+        display: none;
+        @include mq (medium) {
+            display: block;
+        }
     }
 
     &-item {
         padding-left: 0.75em;
         padding-right: 0.75em;
-        color: #fff;
+        color: #666666;
         text-transform: uppercase;
         font-size: 0.95rem;
 
@@ -44,7 +64,8 @@
         margin-top: 7px;
         width: 100px;
     }
+
     .global--main-nav-item {
-      font-size: .75rem;
+        font-size: 0.75rem;
     }
 }

@@ -1,4 +1,5 @@
 $item-width: 375px;
+
 .wrapper {
 	padding: 0 calc(50% - 600px);
 }
@@ -12,4 +13,37 @@ $item-width: 375px;
 
 .grid-sizer {
 	width: $item-width;
+}
+
+.gallery {
+	text-align: center;
+
+	h1 {
+		font-size: 2rem;
+		line-height: 1.5em;
+	}
+
+	p {
+		font-size: 1rem;
+		margin-bottom: 1.5em;
+	}
+
+	.filter-button-group {
+		margin-bottom: 2.5em;
+	}
+
+	&--filter {
+		margin-left: .25em;
+		margin-right: .25em;
+		font-size: 0.85em;
+		color: #666666;
+		border: none;
+		background: #fff;
+		transition: all 0.3s;
+		cursor: pointer;
+	}
+
+	&--images {
+		margin-top: 1em;
+	}
 }

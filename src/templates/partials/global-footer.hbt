@@ -1,16 +1,14 @@
 <footer class="global--footer">
     <div class="container">
         <div class="global--footer-wrapper">
-            <div class="global--footer-address">
-                <small>ALL IMAGES ON THIS WEBSITE ARE SUBJECT TO COPYRIGHT &copy;  BY PETER LLOYD &copy;  2017</small>
-            </div>
             <div class="global--footer-social">
-                <a href="/"><img src="/img/logo/logo-white.svg"></a>
-                <div class="global--footer-social-icons">
-                    <img src="/img/logo/fb.svg">
-                    <img src="/img/logo/twitter.svg">
-                    <img src="/img/logo/ig.svg">
-                </div>
+                <img src="/img/icons/500px.svg">
+                <svg class="_2m4hn _1NyeC" version="1.1" viewBox="0 0 32 32" width="32" height="32" aria-labelledby="icon-title-373 icon-desc-374" aria-hidden="false"><title id="icon-title-373">Back home</title>
+                  <path d="M20.8 18.1c0 2.7-2.2 4.8-4.8 4.8s-4.8-2.1-4.8-4.8c0-2.7 2.2-4.8 4.8-4.8 2.7.1 4.8 2.2 4.8 4.8zm11.2-7.4v14.9c0 2.3-1.9 4.3-4.3 4.3h-23.4c-2.4 0-4.3-1.9-4.3-4.3v-15c0-2.3 1.9-4.3 4.3-4.3h3.7l.8-2.3c.4-1.1 1.7-2 2.9-2h8.6c1.2 0 2.5.9 2.9 2l.8 2.4h3.7c2.4 0 4.3 1.9 4.3 4.3zm-8.6 7.5c0-4.1-3.3-7.5-7.5-7.5-4.1 0-7.5 3.4-7.5 7.5s3.3 7.5 7.5 7.5c4.2-.1 7.5-3.4 7.5-7.5z"></path>
+                </svg>
+            </div>
+            <div class="global--footer-copyright">
+                <small>ALL IMAGES ON THIS WEBSITE ARE SUBJECT TO COPYRIGHT &copy;  BY PETER LLOYD &copy;  2017</small>
             </div>
         </div>
     </div>

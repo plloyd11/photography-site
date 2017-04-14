@@ -1,6 +1,9 @@
-<header class="global--main-nav container animated">
+<header class="global--main-nav animated">
     <div class="global--main-nav-left">
-        <a href="/"><img src="/img/logo.svg"></a>
+        <a href="/" class="global--logo">
+            <h1>Peter Lloyd Photography</h1>
+            <span>Landscape, Outdoor &amp; Portrait Photography</span>
+        </a>
     </div>
     <nav class="global--main-nav-right">
         <a href="/gallery/" class="global--main-nav-item">Gallery</a>

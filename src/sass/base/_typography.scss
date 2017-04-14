@@ -1,23 +1,25 @@
 // Basic typography style for copy text
 
-body,
-.ctct-custom-form {
+.ctct-custom-form,
+body {
     font-family: $text-font-stack;
 }
 
-a,
+p {
+    line-height: 1.25;
+}
+
 h1,
 h2,
 h3,
 h4,
-h5,
-li,
-p {
-    margin: 0;
-    font-family: $text-font-stack;
-    margin-bottom: 1em;
+h5 {
+    font-family: 'Montserrat', sans-serif;
 }
 
-p {
-  line-height: 1.25;
+a,
+li,
+p,
+small {
+    font-family: 'Arvo', serif;
 }

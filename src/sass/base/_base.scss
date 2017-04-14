@@ -1,5 +1,6 @@
 // This file contains very basic styles.
 // Set up a decent box model on the root element
+
 html {
     box-sizing: border-box;
     font-size: 16px;
@@ -15,7 +16,6 @@ body {
     font-weight: 300;
     line-height: 1.33333rem;
 }
-
 /**
  * Make all elements from the DOM inherit from the parent box-sizing
  * Since `*` has a specificity of 0, it does not override the `html` value
@@ -28,6 +28,7 @@ body {
     box-sizing: inherit;
 }
 // Basic styles for links
+
 a {
     color: #46B1C9;
     text-decoration: none;
@@ -56,19 +57,31 @@ section > * {
 }
 
 .section-spacing {
-  margin-top: 3.25em;
-  margin-bottom: 3.25em;
+    margin-top: 3.25em;
+    margin-bottom: 3.25em;
 }
 
 .header-spacing {
-  margin-bottom: 2.5em;
+    margin-bottom: 2.5em;
 }
 
 img {
-  max-width: 100%;
-  display: block;
+    max-width: 100%;
+    display: block;
 }
 
 .row-full {
-  margin: 0;
+    margin: 0;
+}
+
+.page-title {
+    font-size: 4.5rem;
+    line-height: 2;
+    text-align: center;
+}
+
+.sub-header {
+    font-size: 2.5rem;
+    line-height: 1.5;
+    text-align: center;
 }
