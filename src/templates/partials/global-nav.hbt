@@ -7,6 +7,7 @@
     </div>
     <nav class="global--main-nav-right">
         <a href="/gallery/" class="global--main-nav-item">Gallery</a>
+        <a href="/collections/" class="global--main-nav-item">Collections</a>
         <a href="/about/" class="global--main-nav-item">About</a>
         <a href="/work-with-me" class="global--main-nav-item">Work With Me</a>
         <a href="/contact/" class="global--main-nav-item nav-cta">Contact</a>
