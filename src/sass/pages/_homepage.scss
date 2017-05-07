@@ -1,3 +1,4 @@
 .homepage--hero-section {
     @include hero-img(url('/img/hero.jpg'));
+    background-position: 82% 80%;
 }
