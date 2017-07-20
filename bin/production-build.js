@@ -1,6 +1,5 @@
 'use strict';
 
-const image = require('./image');
 const metalsmith = require('./metalsmith');
 
 buildSite();
