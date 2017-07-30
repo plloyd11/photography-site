@@ -32,6 +32,7 @@
 
   &-left {
     margin-top: 10px;
+
     img {
       margin-top: 5px;
       width: 250px;
@@ -56,20 +57,5 @@
       color: #adadad;
       text-decoration: none;
     }
-  }
-}
-
-.headroom--not-top {
-  height: 75px;
-  transition: 0.35s ease-in;
-  background-color: #fff;
-
-  img {
-    margin-top: 7px;
-    width: 100px;
-  }
-
-  .global--main-nav-item {
-    font-size: 0.75rem;
   }
 }

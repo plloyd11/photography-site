@@ -39,4 +39,10 @@ $('.button-group').each(function(i, buttonGroup) {
 lightbox.option({
     'resizeDuration': 200,
     'wrapAround': true
-})
+});
+
+(function () {
+	$('.hamburger-menu').on('click', function() {
+		$('.bar').toggleClass('animate');
+	})
+})();

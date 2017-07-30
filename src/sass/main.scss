@@ -8,10 +8,6 @@
   'utilities/responsive-embed',
   'utilities/mixins';
 
-// 2. Vendors
-// @import
-  // 'vendor/../..'
-
 // 3. Base stuff
 @import
   'base/base',
@@ -21,6 +17,7 @@
 // 4. Layout-related sections
 @import
   'layout/main-navigation',
+  'layout/mobile-navigation',
   'layout/footer';
 
 // 5. Components
@@ -33,4 +30,5 @@
   'pages/homepage',
   'pages/collections',
   'pages/about',
+  'pages/work-together',
   'pages/gallery';
