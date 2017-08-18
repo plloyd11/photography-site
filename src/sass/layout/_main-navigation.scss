@@ -39,23 +39,57 @@
     }
   }
 
-  &-right {
-    display: none;
-    @include mq (medium) {
-      display: block;
-    }
+  &-items {
+    display: block;
   }
 
   &-item {
-    padding-left: 0.75em;
-    padding-right: 0.75em;
-    color: #333;
+    margin-top: 1em;
+    margin-bottom: 1em;
     text-transform: uppercase;
     font-size: 0.85rem;
+    color: #fff;
+    @include mq (medium) {
+      margin-top: 0;
+      margin-bottom: 0;
+      padding-left: 0.75em;
+      padding-right: 0.75em;
+      color: #333;
+    }
 
     &:hover {
       color: #adadad;
       text-decoration: none;
     }
   }
+}
+// When you click on hamburger icon, .mobile-open class is added to <nav>
+.mobile-open {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  right: 0;
+  top: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: blue;
+}
+
+.fade-enter {
+  opacity: 0;
+}
+
+.fade-enter-active {
+  transition: 1s ease-in-out;
+}
+
+.fade-leave {
+
+}
+
+.fade-leave-active {
+  transition: 1s ease-in-out;
+  opacity: 0;
 }

@@ -5,15 +5,17 @@
       <span>Landscape, Outdoor &amp; Portrait Photographer</span>
     </a>
   </div>
-  <nav class="global--main-nav-right">
-    <a href="/gallery/" class="global--main-nav-item">Gallery</a>
-    <!-- <a href="/collections/" class="globalmain-nav-item">Collections</a> -->
-    <a href="/work-together/" class="global--main-nav-item">Work Together</a>
-    <a href="/about/" class="global--main-nav-item">About</a>
-  </nav>
-  <nav class="global--mobile-nav">
-    <div class="hamburger-menu">
-    		  <div class="bar"></div>
-    	</div>
-  </nav>
+  <div id="nav" class="global--main-nav-wrapper">
+    <div class="global--main-nav-hamburger">
+      <button id="hamburger" @click="mobileMenu = !mobileMenu"></button>
+    </div>
+    <transition name="fade">
+      <nav class="global--main-nav-items" :class="{'mobile-open' : mobileMenu}">
+    </transition>
+      <a href="/gallery/" class="global--main-nav-item">Gallery</a>
+      <!-- <a href="/collections/" class="global-main-nav-item">Collections</a> -->
+      <a href="/work-together/" class="global--main-nav-item">Work Together</a>
+      <a href="/about/" class="global--main-nav-item">About</a>
+    </nav>
+  </div>
 </header>
