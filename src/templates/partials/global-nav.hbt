@@ -7,7 +7,7 @@
   </div>
   <div id="nav" class="global--main-nav-wrapper">
     <div class="global--main-nav-hamburger">
-      <button id="hamburger" @click="mobileMenu = !mobileMenu"></button>
+      <img src="/img/hamburger.svg" id="hamburger" @click="mobileMenu = !mobileMenu" />
     </div>
     <transition name="fade">
       <nav class="global--main-nav-items" :class="{'mobile-open' : mobileMenu}">
