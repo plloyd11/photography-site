@@ -10,11 +10,9 @@ const del = require('del');
 const gif = require('imagemin-gifsicle');
 const gulp = require('gulp');
 const gutil = require('gulp-util');
-const imagemin = require('gulp-imagemin');
 const jpg = require('imagemin-jpegoptim');
 const maps = require('gulp-sourcemaps');
 const metalsmith = require('./metalsmith');
-const png = require('imagemin-optipng');
 const rename = require('gulp-rename');
 const sass = require('gulp-sass');
 const source = require('vinyl-source-stream');
@@ -52,23 +50,6 @@ gulp.task('javascript', () => {
     .pipe(maps.write('./'))
     .pipe(gulp.dest('./src/js'));
 });
-
-// TODO run this on production builds only
-// TODO 'jpeg' is a local dependency
-gulp.task('image', () => {
-  gulp.src(['./src/img/**/*'])
-    .pipe(imagemin([
-      jpg({ max: 50 }),
-      png({ optimizationLevel: 3 }),
-      gif({ optimizationLevel: 3 }),
-      svg({
-        minifyStyles: true,
-        removeDoctype: true
-      })
-    ]))
-    .pipe(gulp.dest('./build/img'));
-});
-
 
 // Gulp depencencies copy
 gulp.task('copy', () => {
