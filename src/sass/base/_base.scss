@@ -140,8 +140,11 @@ img {
 }
 
 .article-img {
-  width: 60%;
+  width: 90%;
   margin: 0 auto;
+  @include mq(medium) {
+    width: 60%;
+  }
 }
 
 .text-wrapper {
