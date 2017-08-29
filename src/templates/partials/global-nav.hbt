@@ -1,8 +1,7 @@
 <header class="global--main-nav animated">
   <div class="global--main-nav-left">
     <a href="/" class="global--logo">
-      <h1>Peter Lloyd Photography</h1>
-      <span>Landscape, Outdoor &amp; Portrait Photographer</span>
+      <h1>Peter Lloyd</h1>
     </a>
   </div>
   <div id="nav" class="global--main-nav-wrapper">
@@ -12,7 +11,7 @@
     <transition name="fade">
       <nav class="global--main-nav-items" :class="{'mobile-open' : mobileMenu}">
     </transition>
-      <a href="/gallery/" class="global--main-nav-item">Gallery</a>
+      <a href="/portfolio/" class="global--main-nav-item">Portfolio</a>
       <!-- <a href="/collections/" class="global-main-nav-item">Collections</a> -->
       <a href="/work-together/" class="global--main-nav-item">Work Together</a>
       <a href="/about/" class="global--main-nav-item">About</a>

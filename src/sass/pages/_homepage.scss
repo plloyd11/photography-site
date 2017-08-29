@@ -1,4 +1,38 @@
 .homepage--hero-section {
-    @include hero-img(url('/img/hero.jpg'));
-    background-position: 82% 80%;
+  @include hero-img(url('/img/hero.jpg'));
+
+  > h1 {
+    line-height: 1;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 50px;
+    text-align: center;
+    @include mq(small) {
+      font-size: 90px;
+    }
+  }
+
+  > p {
+    margin-bottom: 40px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  > a {
+    padding: .55em 1.15em;
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
+    text-decoration: none;
+    font-size: 18px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    text-align: center;
+    &:hover {
+      color: #181818;
+      background: #fff;
+    }
+  }
 }
