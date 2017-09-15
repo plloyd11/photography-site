@@ -11,11 +11,13 @@
   }
 
   &-copyright {
+    margin-top: .5em;
+    text-align: center;
+
     > small {
       font-size: 0.65rem;
       margin: 0;
       line-height: 1.5;
-      text-align: center;
     }
   }
 }
@@ -36,10 +38,10 @@
     justify-content: center;
 
     img {
-      width: 32px;
-      height: 32px;
-      margin-left: 0.5em;
-      margin-right: 0.5em;
+      width: 28px;
+      height: 28px;
+      margin-left: 0.75em;
+      margin-right: 0.75em;
     }
   }
 

@@ -109,10 +109,10 @@ img {
 }
 
 .article-intro {
-  padding: 5em calc(50% - 600px) 0;
+  padding: 7em calc(50% - 600px) 0;
   text-align: center;
   @include mq (small) {
-    padding: 7em calc(50% - 600px) 0;
+    padding: 8em calc(50% - 600px) 0;
   }
 
   > h1 {
@@ -152,4 +152,8 @@ img {
   padding-left: 20px;
   padding-right: 20px;
   margin: 0 auto;
+}
+
+.paragraph-padding {
+  padding: 0 2em;
 }

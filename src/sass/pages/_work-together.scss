@@ -1,8 +1,10 @@
 .bullet-flex {
+  margin-left: 20px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   @include mq(small) {
+    margin-left: 0;
     flex-direction: row;
   }
 

@@ -1,9 +1,20 @@
 <footer class="global--footer">
-    <div class="container">
-        <div class="global--footer-wrapper">
-            <div class="global--footer-copyright">
-                <small>ALL IMAGES ON THIS WEBSITE ARE SUBJECT TO COPYRIGHT &copy;  BY PETER LLOYD &copy;  2017</small>
-            </div>
-        </div>
+  <div class="container">
+    <div class="global--footer-wrapper">
+      <div class="article--footer-social">
+        <a href="https://www.instagram.com/pldigital/" target="_blank" rel="noopener">
+          <img src="/img/icons/ig-white.svg">
+        </a>
+        <a href="https://unsplash.com/@plloyd" target="_blank" rel="noopener">
+          <img src="/img/icons/unsplash-white.svg">
+        </a>
+        <a href="https://500px.com/plloyd11" target="_blank" rel="noopener">
+          <img src="/img/icons/500px-white.svg">
+        </a>
+      </div>
+      <div class="global--footer-copyright">
+        <small class="paragraph-padding">ALL IMAGES ON THIS WEBSITE ARE SUBJECT TO COPYRIGHT &copy;  BY PETER LLOYD &copy;  2017</small>
+      </div>
     </div>
+  </div>
 </footer>
