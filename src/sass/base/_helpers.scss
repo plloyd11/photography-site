@@ -43,3 +43,10 @@
 .txt-center {
   text-align: center;
 }
+
+.only-mobile {
+  display: block;
+  @include mq(small) {
+    display: none;
+  }
+}

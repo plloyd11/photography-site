@@ -1,5 +1,5 @@
 .global--footer {
-  position: fixed;
+  position: absolute;
   width: 100%;
   bottom: 0;
   color: #fff;
@@ -11,13 +11,14 @@
   }
 
   &-copyright {
-    margin-top: .5em;
+    margin-top: .75em;
     text-align: center;
 
-    > small {
+    > p {
       font-size: 0.65rem;
       margin: 0;
       line-height: 1.5;
+      text-align: center;
     }
   }
 }

@@ -1,3 +1,6 @@
+.homepage-body {
+    overflow: hidden;
+}
 .homepage--hero-section {
   @include hero-img(url('/img/hero.jpg'));
 

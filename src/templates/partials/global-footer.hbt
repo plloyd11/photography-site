@@ -13,7 +13,7 @@
         </a>
       </div>
       <div class="global--footer-copyright">
-        <small class="paragraph-padding">ALL IMAGES ON THIS WEBSITE ARE SUBJECT TO COPYRIGHT &copy;  BY PETER LLOYD &copy;  2017</small>
+        <p class="paragraph-padding">ALL IMAGES ON THIS WEBSITE ARE SUBJECT TO <br class="only-mobile"> COPYRIGHT &copy; BY PETER LLOYD &copy;  2017</p>
       </div>
     </div>
   </div>
