@@ -13,16 +13,16 @@
     "babel-plugin-resolver": "^1.1.0",
     "babel-preset-es2015": "^6.22.0",
     "babelify": "^7.3.0",
-    "browser-sync": "^2.17.3",
+    "browser-sync": "^2.24.4",
     "browserify": "^14.0.0",
     "del": "^2.2.2",
     "gulp": "^3.9.1",
-    "gulp-babel": "^6.1.2",
+    "gulp-babel": "^6.1.3",
     "gulp-concat": "^2.6.0",
     "gulp-copy": "0.0.2",
-    "gulp-rename": "^1.2.2",
+    "gulp-rename": "^1.3.0",
     "gulp-sass": "^2.3.2",
-    "gulp-sourcemaps": "^2.1.1",
+    "gulp-sourcemaps": "^2.6.4",
     "gulp-uglify": "^2.0.0",
     "gulp-util": "^3.0.7",
     "gulp-wrap": "^0.13.0",
@@ -34,7 +34,7 @@
     "vinyl-source-stream": "^1.1.0"
   },
   "dependencies": {
-    "gsap": "^1.19.1",
+    "gsap": "^1.20.6",
     "gulp-imagemin": "^3.1.1",
     "handlebars": "^4.0.5",
     "imagemin-gifsicle": "^5.1.0",
@@ -47,5 +47,8 @@
     "metalsmith-markdown": "^0.2.1",
     "node-sass": "^4.7.2",
     "tinify": "^1.4.0"
+  },
+  "resolutions": {
+    "natives": "1.1.3"
   }
 }
