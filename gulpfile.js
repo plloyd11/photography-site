@@ -7,16 +7,13 @@ const bs = require('browser-sync').create();
 const concat = require('gulp-concat');
 const copy = require('gulp-copy');
 const del = require('del');
-const gif = require('imagemin-gifsicle');
 const gulp = require('gulp');
 const gutil = require('gulp-util');
-const jpg = require('imagemin-jpegoptim');
 const maps = require('gulp-sourcemaps');
 const metalsmith = require('./metalsmith');
 const rename = require('gulp-rename');
 const sass = require('gulp-sass');
 const source = require('vinyl-source-stream');
-const svg = require('imagemin-svgo');
 const uglify = require('gulp-uglify');
 
 // CSS pipeline
@@ -99,6 +96,22 @@ gulp.task('build-helper', ['build'], (done) => {
     if (bsFlag()) return bs.reload();
   }));
 });
+
+gulp.task('static-deploy', ['build'], (done) => {
+  const bsFlag = (() => {
+    let status = false;
+    return (bool) => {
+      if (bool) status = true;
+      return status;
+    };
+  })();
+  gulp.src(['./build/pages/**/*'])
+  .pipe(gulp.dest('build'))
+  .on('end', () => del([
+    './build/pages/',
+    './build/templates/'
+  ]),
+)});
 
 // Standalone server
 gulp.task('serve', (done) => {
