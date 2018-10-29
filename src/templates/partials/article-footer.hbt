@@ -2,7 +2,7 @@
   <div class="container">
     <div class="article--footer-wrapper">
       <div class="article--footer-social">
-      <a href="https://www.instagram.com/anotherpeterlloyd/" target="_blank" rel="noopener">
+        <a href="https://www.instagram.com/anotherpeterlloyd/" target="_blank" rel="noopener">
           <img src="/img/icons/ig.svg">
         </a>
         <a href="https://unsplash.com/@plloyd" target="_blank" rel="noopener">
@@ -13,7 +13,40 @@
         </a>
       </div>
       <div class="article--footer-copyright text-wrapper">
-        <small>ALL IMAGES ON THIS WEBSITE ARE SUBJECT TO COPYRIGHT &copy;  BY PETER LLOYD &copy;  2018</small>
+        <small>ALL IMAGES ON THIS WEBSITE ARE SUBJECT TO COPYRIGHT &copy; BY PETER LLOYD &copy; 2018</small>
+      </div>
+            <div class="class-global--footers-coffee">
+        <style>
+          .bmc-button img {
+            width: 27px !important;
+            box-shadow: none !important;
+            border: none !important;
+            vertical-align: middle !important;
+          }
+
+          .bmc-button {
+            line-height: 36px !important;
+            height: 37px !important;
+            text-decoration: none !important;
+            display: inline-flex !important;
+            color: #000000 !important;
+            background-color: #FFFFFF !important;
+            padding: 0px 9px !important;
+            font-size: 16px !important;
+            letter-spacing: -0.08px !important;
+            margin: 0 auto !important;
+            -webkit-box-sizing: border-box !important;
+            box-sizing: border-box !important;
+            -o-transition: 0.3s all linear !important;
+            -webkit-transition: 0.3s all linear !important;
+            -moz-transition: 0.3s all linear !important;
+            -ms-transition: 0.3s all linear !important;
+            transition: 0.3s all linear !important;
+          }
+        </style>
+        <link href="https://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext" rel="stylesheet"><a class="bmc-button"
+          target="_blank" href="https://www.buymeacoffee.com/Iha2YDv09"><img src="https://www.buymeacoffee.com/assets/img/BMC-btn-logo.svg"
+            alt="Buy me a coffee"><span style="margin-left:5px">Buy me a coffee</span></a>
       </div>
     </div>
   </div>
